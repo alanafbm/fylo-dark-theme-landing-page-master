@@ -1,20 +1,205 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(28, 36, 49);
-}
+                                                                                                                                                                         :root {
+                                                                                                                                                                            --clr-primary-introbg: hsl(217, 28%, 15%);
+                                                                                                                                                                            --clr-primary-mainbg: hsl(218, 28%, 13%);
+                                                                                                                                                                            --clr-primary-footerbg: hsl(216, 53%, 9%);
+                                                                                                                                                                            --clr-primary-900: hsl(219, 30%, 18%);
+                                                                                                                                                                            --clr-accent-cyan: hsl(176, 68%, 64%);
+                                                                                                                                                                            --clr-accent-blue: hsl(198, 60%, 50%);
+                                                                                                                                                                            --clr-accent-red: hsl(0, 100%, 63%);
+                                                                                                                                                                            --ff-primary: 'Raleway', sans-serif;
+                                                                                                                                                                            --ff-secondary: 'Open Sans', sans-serif;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        * {
+                                                                                                                                                                            padding: 0;
+                                                                                                                                                                            margin: 0;
+                                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .wrapper {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                            max-width: 1440px;
+                                                                                                                                                                            margin-left: 200px;
+                                                                                                                                                                            background-color: var(--clr-primary-900);
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .header {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                            position: relative;
+                                                                                                                                                                            margin-top: 50px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .logo {
+                                                                                                                                                                            position: absolute;
+                                                                                                                                                                            top: 15px;
+                                                                                                                                                                            left: 50px;
+                                                                                                                                                                            align-items: left;
+                                                                                                                                                                            margin-bottom: 100px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .button {
+                                                                                                                                                                            /* margin-left: 800px; */
+                                                                                                                                                                            align-items: right;
+                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                            border-radius: 20px;
+                                                                                                                                                                            cursor: pointer;
+                                                                                                                                                                            transition: background-color 0.3s;
+                                                                                                                                                                            position: absolute;
+                                                                                                                                                                            top: 0;
+                                                                                                                                                                            right: 0;
+                                                                                                                                                                            margin-right: 50px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .features {
+                                                                                                                                                                            margin: 25px;
+                                                                                                                                                                            background: var(--clr-primary-introbg);
+                                                                                                                                                                            border: none;
+                                                                                                                                                                            color: white;
+                                                                                                                                                                            font-family: 'Raleway', sans-serif;
+                                                                                                                                                                            font-size: 15px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .team {
+                                                                                                                                                                            margin: 25px;
+                                                                                                                                                                            background: var(--clr-primary-introbg);
+                                                                                                                                                                            border: none;
+                                                                                                                                                                            color: white;
+                                                                                                                                                                            font-family: 'Raleway', sans-serif;
+                                                                                                                                                                            font-size: 15px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .sigin {
+                                                                                                                                                                            margin: 25px;
+                                                                                                                                                                            background: var(--clr-primary-introbg);
+                                                                                                                                                                            border: none;
+                                                                                                                                                                            color: white;
+                                                                                                                                                                            font-family: 'Raleway', sans-serif;
+                                                                                                                                                                            font-size: 15px;
+                                                                                                                                                                        }
+                                                                                                                                                                        /* Section 1 */
+                                                                                                                                                                        
+                                                                                                                                                                        .hero {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                            flex-direction: column;
+                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                            max-width: 1440px;
+                                                                                                                                                                            max-height: 900px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .img {
+                                                                                                                                                                            max-width: 800px;
+                                                                                                                                                                            margin-left: 300px;
+                                                                                                                                                                            margin-bottom: 50px;
+                                                                                                                                                                            margin-top: 150px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .tittle {
+                                                                                                                                                                            color: whitesmoke;
+                                                                                                                                                                            font-family: var(--ff-primary);
+                                                                                                                                                                            max-width: 600px;
+                                                                                                                                                                            margin-left: 420px;
+                                                                                                                                                                            margin-right: 420px;
+                                                                                                                                                                            font-size: 40px;
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        p {
+                                                                                                                                                                            color: whitesmoke;
+                                                                                                                                                                            font-family: var(--ff-secondary);
+                                                                                                                                                                            font-size: 20px;
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                            padding-top: 50px;
+                                                                                                                                                                            padding-bottom: 50px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .text {
+                                                                                                                                                                            max-width: 800px;
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                            margin-left: 320px;
+                                                                                                                                                                            margin-right: 320px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .getstarted {
+                                                                                                                                                                            border: none;
+                                                                                                                                                                            border-radius: 50px;
+                                                                                                                                                                            padding: 20px;
+                                                                                                                                                                            padding-right: 30px;
+                                                                                                                                                                            padding-left: 30px;
+                                                                                                                                                                            cursor: pointer;
+                                                                                                                                                                            transition: background-color 0.3s;
+                                                                                                                                                                            max-width: 200px;
+                                                                                                                                                                            align-items: center;
+                                                                                                                                                                            margin-left: 620px;
+                                                                                                                                                                            margin-right: 620px;
+                                                                                                                                                                        }
+                                                                                                                                                                        /* Section 2 */
+                                                                                                                                                                        
+                                                                                                                                                                        .groupe1 {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                            flex-direction: row;
+                                                                                                                                                                            margin-top: 200px;
+                                                                                                                                                                            max-width: 1440px;
+                                                                                                                                                                            height: 500px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .card1 {
+                                                                                                                                                                            flex: 1;
+                                                                                                                                                                            max-height: 500px;
+                                                                                                                                                                            max-width: 720px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        h2 {
+                                                                                                                                                                            font-family: var(--ff-primary);
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        p {
+                                                                                                                                                                            font-family: var(--ff-secondary);
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                            padding-left: 50px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .card2 {
+                                                                                                                                                                            flex: 1;
+                                                                                                                                                                            margin: 200px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .groupe2 {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                            flex-direction: row;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .card3 {
+                                                                                                                                                                            flex: 1;
+                                                                                                                                                                            margin: 200px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .card4 {
+                                                                                                                                                                            flex: 1;
+                                                                                                                                                                            margin: 200px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .productive {}
+                                                                                                                                                                        
+                                                                                                                                                                        .card-text {}
+                                                                                                                                                                        
+                                                                                                                                                                        .link {}
+                                                                                                                                                                        
+                                                                                                                                                                        .testimonials {}
+                                                                                                                                                                        
+                                                                                                                                                                        .test1 {}
+                                                                                                                                                                        
+                                                                                                                                                                        .test2 {}
+                                                                                                                                                                        
+                                                                                                                                                                        .test3 {}
+                                                                                                                                                                        
+                                                                                                                                                                        .attribution {
+                                                                                                                                                                            font-size: 11px;
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .attribution a {
+                                                                                                                                                                            color: hsl(228, 45%, 44%);
+                                                                                                                                                                        }
